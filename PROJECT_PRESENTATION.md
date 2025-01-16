@@ -2,7 +2,7 @@ Put your plan, story, and any supporting material here, you could use the help o
 
 
 
-Create the password challange	Opem the Chest
+Open the Chest Challange
 
 
 Story: 						
@@ -14,12 +14,12 @@ List of the conditions:
 
 conditions/ tests
 
-    2. Needs to be a string                                             MVP 1   test 1
-	3. Length min 8	max 20		                                        MVP 2	test 2
-	4. 1 capital letter				                                    MVP 3	test 3
-	5. 1 lowercase letter			                                    MVP 4	test 4
-	6. 1 number				                                            MVP 5	test 5
-	7. special character	anything else from number of letter			MVP 6	test 6
+    1. Bare Bones Test                                                  MVP 1   test 1
+	2. Length min 8	max 20		                                        MVP 1	test 2
+	3. 1 capital letter				                                    MVP 2	test 3
+	4. 1 lowercase letter			                                    MVP 2	test 3
+	5. 1 number				                                            MVP 3	test 4
+	6. special character	anything else from number of letter			MVP 4	test 5
 						
 
 

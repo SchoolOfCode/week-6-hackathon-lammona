@@ -1,85 +1,24 @@
 export function openTheChest(password){
+    // check if password has correct length
+    if (password.length >= 8 && password.length <= 20){
+        //has correct length - move forward
+    }else{
+        return false; //-else finish the function and return false
+    }
 
-    // // check if password has correct length
-    // if (password.length >= 8 && password.length <= 20){
-    //     return true
-    // }else{
-    //     return false;
-    // }
+    // check if password includes upper and lower cases
+    let hasLowerCase = false;
+    let hasUpperCase = false;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // //check if password has at least 1 lowercase
-    // const lowercases = "abcdefghijklmnopqrstuvwxyz";
-    // for (let i = 0; i < password.length; i++){
-    //     if (lowercases.includes(password[i])){
-    //         return true;
-    //     }else{
-    //     }
-    // }
-    // return false
-
-
-//check if password has at least 1 uppercase
+    const lowercases = "abcdefghijklmnopqrstuvwxyz";
     const uppercases = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     for (let i = 0; i < password.length; i++){
+        if (lowercases.includes(password[i])){
+            hasLowerCase = true;
+        }
         if (uppercases.includes(password[i])){
-            return true;
-        }else{
+            hasUpperCase = true;
         }
     }
-    return false
+    return hasLowerCase && hasUpperCase;
 }
-
-
-
-
-
- // const hasLowercase = /[a-z]/.test(password);
-    // const hasUppercase = /[A-Z]/.test(password);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//     if(typeof password !== "string"){
-//         return false;
-//     }
-
-//     return true
-// }
