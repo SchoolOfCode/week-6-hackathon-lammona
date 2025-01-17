@@ -13,6 +13,8 @@
 // The string must contain at least one lowercase letter.
 // The string must contain at least one uppercase letter.
 
+//* remember to install vitest first :)
+
 export function openTheChest(password){
 //Good Luck
 }
