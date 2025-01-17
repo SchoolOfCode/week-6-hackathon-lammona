@@ -1,9 +1,9 @@
 import {openTheChest} from "./main.js"
 import {expect, test} from "vitest"
 
-//Test 1: Base test
-test("Base test",() =>{
-});
+//Test: Base test
+// test("Base test",() =>{
+// });
 
 
 // Test 2: Length min 8 max 20	
